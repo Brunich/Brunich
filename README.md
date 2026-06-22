@@ -40,4 +40,4 @@ Godot 4 · React · TypeScript · Supabase · Vercel · Node · Zod
 ## Contact
 
 - [@Brunich](https://github.com/Brunich)
-- brunich.dev@gmail.com
+- brunich99@gmail.com
