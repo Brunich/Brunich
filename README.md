@@ -13,10 +13,10 @@ Every project below works in the browser: open it and use it.
 | Project | What it does | Live | Code |
 |---|---|---|---|
 | **NFC for businesses** | Fast customer care with one tap: a stamp card in the Wallet and WhatsApp messages at the right moment (review, win-back, birthday). | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/club-nfc) | [LoyaltyDemo.tsx](https://github.com/Brunich/bruno-portfolio/blob/main/src/LoyaltyDemo.tsx) |
-| **CSV Analyzer** | Finds duplicates, misspelled values, mixed dates and broken business rules; fixes the mechanical ones in one click and maps how the file is organized. 12 unit tests. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/analizador-csv) | [quality.ts](https://github.com/Brunich/bruno-portfolio/blob/main/src/quality.ts) |
+| **CSV Analyzer** | Finds duplicates, misspelled values, mixed dates and broken business rules; fixes the mechanical ones in one click and maps how the file is organized. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/analizador-csv) | [quality.ts](https://github.com/Brunich/bruno-portfolio/blob/main/src/quality.ts) |
 | **Shift handover** | Quality incidents with an owner, evidence and a closure; hands the open work to the next shift. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/entrega-de-turno) | [ShiftHandover.tsx](https://github.com/Brunich/bruno-portfolio/blob/main/src/ShiftHandover.tsx) |
 | **Punto U** | UANL students post favors on a campus map and trade them for money, time or study help. Web and Android. | [app](https://punto-u-app.vercel.app) | [Punto-U-app](https://github.com/Brunich/Punto-U-app) |
-| **VibeMap** | Hackathon, team of 3: a numbered diagram of how a project’s code flows. | [preview](https://bruno-portfolio-azure.vercel.app/proyectos/vibemap) | [team repo](https://github.com/CharlsMex24/VibeMap_Hackathon) |
+| **VibeMap** | Hackathon, team of 3: drop a project folder and see it as a mind map — entry point, who uses whom, unused code. TS, JS, Python and GDScript, all in the browser. | [app](https://vibemap-brunich.vercel.app) | [VibeMap](https://github.com/Brunich/VibeMap) |
 
 The portfolio itself: React 19, TypeScript, Vite, three.js, Playwright + axe in CI → [bruno-portfolio](https://github.com/Brunich/bruno-portfolio)
 
@@ -24,7 +24,7 @@ The portfolio itself: React 19, TypeScript, Vite, three.js, Playwright + axe in 
 
 | | | |
 |---|---|---|
-| **IA Rogue** | 3D roguelike in Godot 4: three working cameras, playable scenes, my own shaders. Frame time 13.3 → 7.1 ms after profiling. | [scenes & 3D model](https://bruno-portfolio-azure.vercel.app/#graphics) |
+| **IA Rogue** | 3D roguelike in Godot 4: three working cameras, playable scenes, my own shaders. | [scenes & 3D model](https://bruno-portfolio-azure.vercel.app/#graphics) |
 | **Nexos** | Godot 4.6 fan RPG: overworld and turn-based battles | [repo](https://github.com/Brunich/Nexos) |
 | **Indie Junior Projects** | Godot learning games, from Pong to an RPG | [repo](https://github.com/Brunich/Indie-Junior-Projects) |
 
