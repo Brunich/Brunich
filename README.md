@@ -1,48 +1,49 @@
 # Bruno Salas Rodríguez
 
-Software Engineering student at UANL (2023–2028) · web, data & automation · game dev on the side.
+Estudiante de Ingeniería en Software en la UANL (2023–2028) · web, datos y automatización · game dev aparte.
 
-**[Portfolio](https://bruno-portfolio-azure.vercel.app)** · [LinkedIn](https://www.linkedin.com/in/bruno-salas-969b78282/) · brunich99@gmail.com · Monterrey, Mexico
+> **In English:** Software Engineering student at UANL building web, data and automation tools, plus games in Godot. Every project below runs in the browser.
 
-[![Portfolio](https://raw.githubusercontent.com/Brunich/bruno-portfolio/main/public/og.png)](https://bruno-portfolio-azure.vercel.app)
+**[Portafolio](https://bruno-portfolio-azure.vercel.app)** · [LinkedIn](https://www.linkedin.com/in/bruno-salas-969b78282/) · brunich99@gmail.com · Monterrey, México
 
-## Try them live
+[![Portafolio](https://raw.githubusercontent.com/Brunich/Portafolio-Web/main/public/og.png)](https://bruno-portfolio-azure.vercel.app)
 
-Every project below works in the browser: open it and use it.
+## Pruébalos en vivo
 
-| Project | What it does | Live | Code |
+Todos funcionan en el navegador: los abres y los usas.
+
+| Proyecto | Qué hace | En vivo | Código |
 |---|---|---|---|
-| **NFC for businesses** | Fast customer care with one tap: a stamp card in the Wallet and WhatsApp messages at the right moment (review, win-back, birthday). | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/club-nfc) | [LoyaltyDemo.tsx](https://github.com/Brunich/bruno-portfolio/blob/main/src/LoyaltyDemo.tsx) |
-| **CSV Analyzer** | Finds duplicates, misspelled values, mixed dates and broken business rules; fixes the mechanical ones in one click and maps how the file is organized. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/analizador-csv) | [quality.ts](https://github.com/Brunich/bruno-portfolio/blob/main/src/quality.ts) |
-| **Shift handover** | Quality incidents with an owner, evidence and a closure; hands the open work to the next shift. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/entrega-de-turno) | [ShiftHandover.tsx](https://github.com/Brunich/bruno-portfolio/blob/main/src/ShiftHandover.tsx) |
-| **Punto U** | UANL students post favors on a campus map and trade them for money, time or study help. Web and Android. | [app](https://punto-u-app.vercel.app) | [Punto-U-app](https://github.com/Brunich/Punto-U-app) |
-| **VibeMap** | Hackathon, team of 3: drop a project folder and see it as a mind map — entry point, who uses whom, unused code. TS, JS, Python and GDScript, all in the browser. | [app](https://vibemap-brunich.vercel.app) | [VibeMap](https://github.com/Brunich/VibeMap) |
+| **Chip NFC para empresas y negocios** | Tarjeta de sellos y menú digital: el cliente acerca el celular, sin app. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/club-nfc) | [repo](https://github.com/Brunich/Chip-NFC-Para-Empresas-Y-Negocios) |
+| **Analizador CSV** | Encuentra duplicados, fechas mezcladas y reglas rotas; arregla lo mecánico en un clic y lo consultas en SQL. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/analizador-csv) | [repo](https://github.com/Brunich/Analizador-CSV) |
+| **Tablero de incidencias de datos** | Incidencias entre turnos con responsable, evidencia y cierre; SLA por severidad. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/entrega-de-turno) | [repo](https://github.com/Brunich/Tablero-De-Incidencias-De-Datos-Para-Empresas) |
+| **Reportes de producción OEE** | Cruza producción, calidad y paros del turno y calcula el OEE por línea. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/planta) | [repo](https://github.com/Brunich/Reportes-De-Produccion-OEE) |
+| **Inventario QR con cámara** | La cámara del celular como lector de QR y códigos de barras: entradas, ventas y resurtido. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/inventario) | [repo](https://github.com/Brunich/Inventario-QR-Con-Camara) |
+| **Gráficas de control** | X̄-R e I-MR desde un CSV o Excel, reglas de Western Electric y Cp/Cpk. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/graficas-de-control) | [repo](https://github.com/Brunich/Graficas-De-Control) |
+| **Punto U** | Estudiantes de la UANL piden y hacen favores en un mapa del campus. Web y Android. | [app](https://punto-u-app.vercel.app) | [repo](https://github.com/Brunich/Punto-U-App) |
+| **VibeMap** | Hackathon, equipo de 3: sueltas la carpeta de un proyecto y lo ves como mapa mental. | [app](https://vibemap-brunich.vercel.app) | [repo](https://github.com/Brunich/VibeMap) |
 
-The portfolio itself: React 19, TypeScript, Vite, three.js, Playwright + axe in CI → [bruno-portfolio](https://github.com/Brunich/bruno-portfolio)
+El portafolio en sí: React 19, TypeScript, Vite, three.js, Playwright + axe en CI → [Portafolio-Web](https://github.com/Brunich/Portafolio-Web)
 
-## Game development
-
-| | | |
-|---|---|---|
-| **IA Rogue** | 3D roguelike in Godot 4: three working cameras, playable scenes, my own shaders. | [scenes & 3D model](https://bruno-portfolio-azure.vercel.app/#graphics) |
-| **Nexos** | Godot 4.6 fan RPG: overworld and turn-based battles | [repo](https://github.com/Brunich/Nexos) |
-| **Indie Junior Projects** | Godot learning games, from Pong to an RPG | [repo](https://github.com/Brunich/Indie-Junior-Projects) |
-
-## Automation & ops
+## Game dev
 
 | | | |
 |---|---|---|
-| **Client onboarding webhook** | Form validation → ClickUp checklist + bilingual bot prompts | [repo](https://github.com/Brunich/agency-onboarding-automation) |
-| **MCL vs WHOP dashboard** | Billing reconciliation dashboard (React + TypeScript) | [repo](https://github.com/Brunich/whop-mcl-reconcile) |
-| **Master Client List validator** | CLI that validates rows before billing reconciliation | [repo](https://github.com/Brunich/mcl-data-validator) |
-| **Concierge prompt builder** | Bilingual bot prompts for onboarding, billing and kickoff | [repo](https://github.com/Brunich/mia-prompt-lab) |
-| **Aseprite manual build** | Build Aseprite on Windows Home in one click | [repo](https://github.com/Brunich/aseprite-manual-build) |
+| **IA Rogue** | Roguelike 3D en Godot 4: tres cámaras, escenas jugables y shaders propios. | [escenas y modelo 3D](https://bruno-portfolio-azure.vercel.app/#graphics) |
+| **Nexos** | RPG fan en Godot 4.6: mapa abierto y batallas por turnos | [repo](https://github.com/Brunich/Nexos) |
 
-## Now building
+## Otros
 
-1. **NFC for businesses** with a real backend: Supabase, signed Wallet passes and the WhatsApp Cloud API in test mode.
-2. **Shift handover** with persistence, role permissions and PDF export.
-3. **CSV Analyzer** as its own package, with XLSX support and a CLI.
+| | | |
+|---|---|---|
+| **Conciliación de cobros WHOP** | Cruza la lista de clientes con los pagos y marca lo que no cuadra | [repo](https://github.com/Brunich/Conciliacion-De-Cobros-WHOP) |
+| **Aseprite gratis, build manual** | Compila Aseprite oficial en Windows Home en un clic | [repo](https://github.com/Brunich/Aseprite-Gratis-Oficial-Build-Manual) |
+
+## En lo que estoy
+
+1. **Chip NFC** con backend de verdad: Supabase, pases de Wallet firmados y la API de WhatsApp en modo prueba.
+2. **Tablero de incidencias** con guardado, permisos por rol y exportar a PDF.
+3. **Analizador CSV** como paquete aparte, con XLSX y línea de comandos.
 
 ## Stack
 
