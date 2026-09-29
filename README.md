@@ -39,12 +39,6 @@ El portafolio en sí: React 19, TypeScript, Vite, three.js, Playwright + axe en 
 | **Conciliación de cobros WHOP** | Cruza la lista de clientes con los pagos y marca lo que no cuadra | [repo](https://github.com/Brunich/Conciliacion-De-Cobros-WHOP) |
 | **Aseprite gratis, build manual** | Compila Aseprite oficial en Windows Home en un clic | [repo](https://github.com/Brunich/Aseprite-Gratis-Oficial-Build-Manual) |
 
-## En lo que estoy
-
-1. **Chip NFC** con backend de verdad: Supabase, pases de Wallet firmados y la API de WhatsApp en modo prueba.
-2. **Tablero de incidencias** con guardado, permisos por rol y exportar a PDF.
-3. **Analizador CSV** como paquete aparte, con XLSX y línea de comandos.
-
 ## Stack
 
 TypeScript · React · Vite · Node.js · Supabase · Python · Pandas · SQL · Playwright · three.js · Godot 4 · Vercel
