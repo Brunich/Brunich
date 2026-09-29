@@ -30,7 +30,7 @@ El portafolio en sí: React 19, TypeScript, Vite, three.js, Playwright + axe en 
 | | | |
 |---|---|---|
 | **IA Rogue** | Roguelike 3D en Godot 4: tres cámaras, escenas jugables y shaders propios. | [escenas y modelo 3D](https://bruno-portfolio-azure.vercel.app/#graphics) |
-| **Nexos** | RPG fan en Godot 4.6: mapa abierto y batallas por turnos | [repo](https://github.com/Brunich/Nexos) |
+| **Nexos (demo Godot)** | RPG fan en Godot 4.6: mapa abierto y batallas por turnos; la versión final va en Unreal Engine | [repo](https://github.com/Brunich/Nexos-Demo-Godot) |
 
 ## Otros
 
