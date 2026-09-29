@@ -2,7 +2,11 @@
 
 Estudiante de Ingeniería en Software en la UANL (2023–2028) · web, datos y automatización · game dev aparte.
 
-> **In English:** Software Engineering student at UANL building web, data and automation tools, plus games in Godot. Every project below runs in the browser.
+> **Summary**
+> Software Engineering student at UANL (Monterrey, Mexico).
+> I build web, data and automation tools with React and TypeScript.
+> On the side I make games in Godot, like the 3D roguelike IA Rogue.
+> Every project below runs in the browser, so you can try it right away.
 
 **[Portafolio](https://bruno-portfolio-azure.vercel.app)** · [LinkedIn](https://www.linkedin.com/in/bruno-salas-969b78282/) · brunich99@gmail.com · Monterrey, México
 
