@@ -111,17 +111,6 @@ Un mismo personaje en pixel art, cel shading y 3D.
 
 <br clear="all"><br>
 
-<img src="gifs/nexos-criaturas.gif" width="46%" align="right" alt="Nexos">
-
-### <img src="iconos/nexos.svg" width="22" align="top"> Nexos
-
-RPG por turnos en Godot 4.6, con mapa abierto y batallas.<br>
-Criaturas propias con tres fases de evolución.
-
-[Código](https://github.com/Brunich/Nexos-Demo-Godot)
-
-<br clear="all"><br>
-
 ## Stack
 
 TypeScript · React · Node.js · Supabase · Python · SQL · Playwright · three.js · Godot
