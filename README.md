@@ -111,7 +111,7 @@ Un mismo personaje en pixel art, cel shading y 3D.
 
 <br clear="all"><br>
 
-<img src="gifs/nexos.gif" width="46%" align="right" alt="Nexos">
+<img src="gifs/nexos-criaturas.gif" width="46%" align="right" alt="Nexos">
 
 ### <img src="iconos/nexos.svg" width="22" align="top"> Nexos
 
