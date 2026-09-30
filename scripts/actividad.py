@@ -43,16 +43,8 @@ def consultar():
 
 
 def curva(puntos):
-    # Catmull-Rom a Bézier para que la línea no se vea en picos
-    d = f"M{puntos[0][0]:.1f},{puntos[0][1]:.1f}"
-    for i in range(len(puntos) - 1):
-        p0 = puntos[max(i - 1, 0)]
-        p1, p2 = puntos[i], puntos[i + 1]
-        p3 = puntos[min(i + 2, len(puntos) - 1)]
-        c1 = (p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6)
-        c2 = (p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6)
-        d += f" C{c1[0]:.1f},{c1[1]:.1f} {c2[0]:.1f},{c2[1]:.1f} {p2[0]:.1f},{p2[1]:.1f}"
-    return d
+    # Tramos rectos: con suavizado la línea bajaba del eje
+    return "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in puntos)
 
 
 def main():
@@ -61,11 +53,16 @@ def main():
     cal = cc["contributionCalendar"]
 
     semanas = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in cal["weeks"]][-SEMANAS:]
+    # Acumulado: una semana fuerte no aplasta al resto de la curva
+    acumulado, suma = [], 0
+    for v in semanas:
+        suma += v
+        acumulado.append(suma)
     inicio = cal["weeks"][-SEMANAS]["contributionDays"][0]["date"]
-    tope = max(max(semanas), 1)
+    tope = max(acumulado[-1], 1)
     x0, x1, y0, y1 = 24, 396, 180, 70
     paso = (x1 - x0) / (len(semanas) - 1)
-    pts = [(x0 + i * paso, y0 - (v / tope) * (y0 - y1)) for i, v in enumerate(semanas)]
+    pts = [(x0 + i * paso, y0 - (v / tope) * (y0 - y1)) for i, v in enumerate(acumulado)]
     linea = curva(pts)
     area = f"{linea} L{x1},{y0} L{x0},{y0} Z"
     ultimo = pts[-1]
@@ -124,12 +121,13 @@ def main():
     <clipPath id="barra"><rect x="440" y="70" width="360" height="10" rx="5"/></clipPath>
   </defs>
 
-  <text x="20" y="28" class="t">Actividad semanal</text>
-  <text x="20" y="46" class="s">{cal["totalContributions"]} contribuciones en el último año · {cc["totalCommitContributions"]} commits · {cc["totalPullRequestContributions"]} PR · {cc["totalIssueContributions"]} issues</text>
+  <text x="20" y="28" class="t">Contribuciones acumuladas</text>
+  <text x="20" y="46" class="s">últimos 6 meses · commits, PR, issues y revisiones</text>
   <line x1="{x0}" y1="{y0}" x2="{x1}" y2="{y0}" class="ln"/>
   <path d="{area}" fill="url(#relleno)"/>
   <path d="{linea}" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round"/>
   <circle cx="{ultimo[0]:.1f}" cy="{ultimo[1]:.1f}" r="4" fill="#3fb950"/>
+  <text x="{ultimo[0] - 8:.1f}" y="{ultimo[1] + 4:.1f}" class="s" text-anchor="end">{suma}</text>
   <g class="s" text-anchor="start">{"".join(etiquetas)}</g>
 
   <text x="440" y="28" class="t">Lenguajes</text>
@@ -141,7 +139,7 @@ def main():
     ruta = os.path.join(os.path.dirname(__file__), "..", "actividad.svg")
     with open(ruta, "w", encoding="utf-8") as f:
         f.write(svg)
-    print(f"actividad.svg desde {inicio}: {sum(semanas)} contribuciones, {len(lenguajes)} lenguajes")
+    print(f"actividad.svg desde {inicio}: {suma} contribuciones, {len(lenguajes)} lenguajes")
 
 
 if __name__ == "__main__":
