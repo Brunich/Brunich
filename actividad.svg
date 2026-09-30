@@ -2,66 +2,33 @@
   <style>
     .t { fill: #1f2328; font-size: 14px; font-weight: 600; }
     .s { fill: #59636e; font-size: 12px; }
-    .v { fill: #59636e; font-size: 11px; }
+    .v { fill: #818b98; }
     .ln { stroke: #d1d9e0; }
-    .bar { fill: #2da44e; }
     @media (prefers-color-scheme: dark) {
       .t { fill: #f0f6fc; }
-      .s, .v { fill: #9198a1; }
+      .s { fill: #9198a1; }
+      .v { fill: #6e7681; }
       .ln { stroke: #3d444d; }
-      .bar { fill: #3fb950; }
     }
   </style>
+  <defs>
+    <linearGradient id="relleno" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fb950" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="barra"><rect x="440" y="70" width="360" height="10" rx="5"/></clipPath>
+  </defs>
 
-  <!-- Contribuciones por mes -->
-  <text x="20" y="28" class="t">Contribuciones por mes</text>
-  <text x="20" y="46" class="s">817 en el último año · 407 commits · 34 PR · 29 issues</text>
-  <line x1="20" y1="190" x2="390" y2="190" class="ln"/>
-  <g class="bar">
-    <rect x="35"  y="180.8" width="32" height="9.2"   rx="3"/>
-    <rect x="87"  y="176.3" width="32" height="13.7"  rx="3"/>
-    <rect x="139" y="180.1" width="32" height="9.9"   rx="3"/>
-    <rect x="191" y="175.6" width="32" height="14.4"  rx="3"/>
-    <rect x="243" y="178.2" width="32" height="11.8"  rx="3"/>
-    <rect x="295" y="166.2" width="32" height="23.8"  rx="3"/>
-    <rect x="347" y="80"    width="32" height="110"   rx="3"/>
-  </g>
-  <g class="v" text-anchor="middle">
-    <text x="51"  y="175">39</text>
-    <text x="103" y="171">58</text>
-    <text x="155" y="175">42</text>
-    <text x="207" y="170">61</text>
-    <text x="259" y="173">50</text>
-    <text x="311" y="161">101</text>
-    <text x="363" y="75">466</text>
-  </g>
-  <g class="s" text-anchor="middle">
-    <text x="51"  y="208">mar</text>
-    <text x="103" y="208">abr</text>
-    <text x="155" y="208">may</text>
-    <text x="207" y="208">jun</text>
-    <text x="259" y="208">jul</text>
-    <text x="311" y="208">ago</text>
-    <text x="363" y="208">sep</text>
-  </g>
+  <text x="20" y="28" class="t">Actividad semanal</text>
+  <text x="20" y="46" class="s">818 contribuciones en el último año · 408 commits · 34 PR · 29 issues</text>
+  <line x1="24" y1="180" x2="396" y2="180" class="ln"/>
+  <path d="M24.0,167.9 C26.5,169.6 33.9,176.7 38.9,178.3 C43.8,179.8 48.8,176.8 53.8,177.1 C58.7,177.4 63.7,181.4 68.6,180.0 C73.6,178.6 78.6,168.5 83.5,168.5 C88.5,168.4 93.4,177.8 98.4,179.7 C103.4,181.6 108.3,179.7 113.3,179.7 C118.2,179.8 123.2,180.0 128.2,180.0 C133.1,180.0 138.1,180.0 143.0,180.0 C148.0,180.0 153.0,180.0 157.9,180.0 C162.9,180.0 167.8,182.9 172.8,180.0 C177.8,177.1 182.7,162.6 187.7,162.4 C192.6,162.3 197.6,176.3 202.6,179.1 C207.5,182.0 212.5,179.9 217.4,179.7 C222.4,179.6 227.4,179.0 232.3,178.3 C237.3,177.6 242.2,176.4 247.2,175.4 C252.2,174.3 257.1,172.3 262.1,171.9 C267.0,171.6 272.0,173.1 277.0,173.4 C281.9,173.7 286.9,173.9 291.8,173.7 C296.8,173.4 301.8,172.0 306.7,171.9 C311.7,171.8 316.6,172.6 321.6,173.1 C326.6,173.6 331.5,175.1 336.5,175.1 C341.4,175.2 346.4,173.3 351.4,173.4 C356.3,173.4 361.3,175.7 366.2,175.4 C371.2,175.1 376.2,189.2 381.1,171.6 C386.1,154.1 393.5,86.9 396.0,70.0 L396,180 L24,180 Z" fill="url(#relleno)"/>
+  <path d="M24.0,167.9 C26.5,169.6 33.9,176.7 38.9,178.3 C43.8,179.8 48.8,176.8 53.8,177.1 C58.7,177.4 63.7,181.4 68.6,180.0 C73.6,178.6 78.6,168.5 83.5,168.5 C88.5,168.4 93.4,177.8 98.4,179.7 C103.4,181.6 108.3,179.7 113.3,179.7 C118.2,179.8 123.2,180.0 128.2,180.0 C133.1,180.0 138.1,180.0 143.0,180.0 C148.0,180.0 153.0,180.0 157.9,180.0 C162.9,180.0 167.8,182.9 172.8,180.0 C177.8,177.1 182.7,162.6 187.7,162.4 C192.6,162.3 197.6,176.3 202.6,179.1 C207.5,182.0 212.5,179.9 217.4,179.7 C222.4,179.6 227.4,179.0 232.3,178.3 C237.3,177.6 242.2,176.4 247.2,175.4 C252.2,174.3 257.1,172.3 262.1,171.9 C267.0,171.6 272.0,173.1 277.0,173.4 C281.9,173.7 286.9,173.9 291.8,173.7 C296.8,173.4 301.8,172.0 306.7,171.9 C311.7,171.8 316.6,172.6 321.6,173.1 C326.6,173.6 331.5,175.1 336.5,175.1 C341.4,175.2 346.4,173.3 351.4,173.4 C356.3,173.4 361.3,175.7 366.2,175.4 C371.2,175.1 376.2,189.2 381.1,171.6 C386.1,154.1 393.5,86.9 396.0,70.0" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="396.0" cy="70.0" r="4" fill="#3fb950"/>
+  <g class="s" text-anchor="start"><text x="24.0" y="204">abr</text><text x="83.5" y="204">may</text><text x="157.9" y="204">jun</text><text x="217.4" y="204">jul</text><text x="277.0" y="204">ago</text><text x="351.4" y="204">sep</text></g>
 
-  <!-- Lenguajes -->
   <text x="440" y="28" class="t">Lenguajes</text>
   <text x="440" y="46" class="s">por volumen de código en mis repos</text>
-  <g>
-    <rect x="440"   y="66" width="360" height="12" rx="6" fill="#8b949e"/>
-    <rect x="440"   y="66" width="274.9" height="12" rx="6" fill="#355570"/>
-    <rect x="708.9" y="66" width="29.7" height="12" fill="#3572A5"/>
-    <rect x="738.6" y="66" width="21.9" height="12" fill="#178600"/>
-    <rect x="760.5" y="66" width="15.0" height="12" fill="#3178c6"/>
-    <rect x="775.5" y="66" width="14.2" height="12" fill="#478cbf"/>
-  </g>
-  <g class="s">
-    <circle cx="446" cy="110" r="5" fill="#355570"/><text x="458" y="114">GDScript 74,7 %</text>
-    <circle cx="446" cy="138" r="5" fill="#3572A5"/><text x="458" y="142">Python 8,2 %</text>
-    <circle cx="446" cy="166" r="5" fill="#178600"/><text x="458" y="170">C# 6,1 %</text>
-    <circle cx="626" cy="110" r="5" fill="#3178c6"/><text x="638" y="114">TypeScript 4,2 %</text>
-    <circle cx="626" cy="138" r="5" fill="#478cbf"/><text x="638" y="142">GDShader 3,9 %</text>
-    <circle cx="626" cy="166" r="5" fill="#8b949e"/><text x="638" y="170">Otros 2,9 %</text>
-  </g>
+  <g clip-path="url(#barra)"><rect x="440.0" y="70" width="268.9" height="10" fill="#58a6ff"/><rect x="708.9" y="70" width="29.7" height="10" fill="#3fb950"/><rect x="738.6" y="70" width="21.8" height="10" fill="#d29922"/><rect x="760.4" y="70" width="15.1" height="10" fill="#bc8cff"/><rect x="775.5" y="70" width="14.2" height="10" fill="#f778ba"/><rect x="789.7" y="70" width="10.3" height="10" fill="#8b949e"/></g>
+  <circle cx="446" cy="108" r="5" fill="#58a6ff"/><text x="458" y="112" class="s">GDScript <tspan class="v">74,7 %</tspan></text><circle cx="446" cy="138" r="5" fill="#3fb950"/><text x="458" y="142" class="s">Python <tspan class="v">8,2 %</tspan></text><circle cx="446" cy="168" r="5" fill="#d29922"/><text x="458" y="172" class="s">C# <tspan class="v">6,1 %</tspan></text><circle cx="626" cy="108" r="5" fill="#bc8cff"/><text x="638" y="112" class="s">TypeScript <tspan class="v">4,2 %</tspan></text><circle cx="626" cy="138" r="5" fill="#f778ba"/><text x="638" y="142" class="s">GDShader <tspan class="v">3,9 %</tspan></text><circle cx="626" cy="168" r="5" fill="#8b949e"/><text x="638" y="172" class="s">Otros <tspan class="v">2,9 %</tspan></text>
 </svg>
