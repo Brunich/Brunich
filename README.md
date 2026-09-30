@@ -1,48 +1,29 @@
 # Bruno Salas Rodríguez
 
-Estudiante de Ingeniería en Software en la UANL (2023–2028) · web, datos y automatización · game dev aparte.
+Estudiante de Ingeniería en Software en la UANL. Hago herramientas web, de datos y de automatización, y juegos en Godot.
 
-> **Summary**
-> Software Engineering student at UANL (Monterrey, Mexico).
-> I build web, data and automation tools with React and TypeScript.
-> On the side I make games in Godot, like the 3D roguelike IA Rogue.
-> Every project below runs in the browser, so you can try it right away.
+[Portafolio](https://bruno-portfolio-azure.vercel.app) · [LinkedIn](https://www.linkedin.com/in/bruno-salas-969b78282/) · brunich99@gmail.com · Monterrey, México
 
-**[Portafolio](https://bruno-portfolio-azure.vercel.app)** · [LinkedIn](https://www.linkedin.com/in/bruno-salas-969b78282/) · brunich99@gmail.com · Monterrey, México
+> Software Engineering student at UANL. I build web, data and automation tools with React and TypeScript, and games in Godot. Every project below runs in the browser.
 
-[![Portafolio](https://raw.githubusercontent.com/Brunich/Portafolio-Web/main/public/og.png)](https://bruno-portfolio-azure.vercel.app)
+<img src="actividad.svg" alt="Contribuciones por mes y lenguajes" width="100%">
 
-## Pruébalos en vivo
+## Proyectos
 
-Todos funcionan en el navegador: los abres y los usas.
+- **[Chip NFC para negocios](https://bruno-portfolio-azure.vercel.app/proyectos/club-nfc)**: tarjeta de sellos y menú digital sin app · [código](https://github.com/Brunich/Chip-NFC-Para-Empresas-Y-Negocios)
+- **[Analizador CSV](https://bruno-portfolio-azure.vercel.app/proyectos/analizador-csv)**: encuentra y arregla errores en datos, con consultas SQL · [código](https://github.com/Brunich/Analizador-CSV)
+- **[Tablero de incidencias](https://bruno-portfolio-azure.vercel.app/proyectos/entrega-de-turno)**: incidencias entre turnos con responsable y SLA · [código](https://github.com/Brunich/Tablero-De-Incidencias-De-Datos-Para-Empresas)
+- **[Reportes OEE](https://bruno-portfolio-azure.vercel.app/proyectos/planta)**: OEE por línea a partir de producción, calidad y paros · [código](https://github.com/Brunich/Reportes-De-Produccion-OEE)
+- **[Inventario QR](https://bruno-portfolio-azure.vercel.app/proyectos/inventario)**: la cámara del celular como lector de códigos · [código](https://github.com/Brunich/Inventario-QR-Con-Camara)
+- **[Gráficas de control](https://bruno-portfolio-azure.vercel.app/proyectos/graficas-de-control)**: X̄-R, I-MR y Cp/Cpk desde un CSV o Excel · [código](https://github.com/Brunich/Graficas-De-Control)
+- **[Punto U](https://punto-u-app.vercel.app)**: favores entre estudiantes en un mapa del campus · [código](https://github.com/Brunich/Punto-U-App)
+- **[VibeMap](https://vibemap-brunich.vercel.app)**: un proyecto visto como mapa mental (hackathon) · [código](https://github.com/Brunich/VibeMap)
 
-| Proyecto | Qué hace | En vivo | Código |
-|---|---|---|---|
-| **Chip NFC para empresas y negocios** | Tarjeta de sellos y menú digital: el cliente acerca el celular, sin app. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/club-nfc) | [repo](https://github.com/Brunich/Chip-NFC-Para-Empresas-Y-Negocios) |
-| **Analizador CSV** | Encuentra duplicados, fechas mezcladas y reglas rotas; arregla lo mecánico en un clic y lo consultas en SQL. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/analizador-csv) | [repo](https://github.com/Brunich/Analizador-CSV) |
-| **Tablero de incidencias de datos** | Incidencias entre turnos con responsable, evidencia y cierre; SLA por severidad. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/entrega-de-turno) | [repo](https://github.com/Brunich/Tablero-De-Incidencias-De-Datos-Para-Empresas) |
-| **Reportes de producción OEE** | Cruza producción, calidad y paros del turno y calcula el OEE por línea. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/planta) | [repo](https://github.com/Brunich/Reportes-De-Produccion-OEE) |
-| **Inventario QR con cámara** | La cámara del celular como lector de QR y códigos de barras: entradas, ventas y resurtido. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/inventario) | [repo](https://github.com/Brunich/Inventario-QR-Con-Camara) |
-| **Gráficas de control** | X̄-R e I-MR desde un CSV o Excel, reglas de Western Electric y Cp/Cpk. | [demo](https://bruno-portfolio-azure.vercel.app/proyectos/graficas-de-control) | [repo](https://github.com/Brunich/Graficas-De-Control) |
-| **Punto U** | Estudiantes de la UANL piden y hacen favores en un mapa del campus. Web y Android. | [app](https://punto-u-app.vercel.app) | [repo](https://github.com/Brunich/Punto-U-App) |
-| **VibeMap** | Hackathon, equipo de 3: sueltas la carpeta de un proyecto y lo ves como mapa mental. | [app](https://vibemap-brunich.vercel.app) | [repo](https://github.com/Brunich/VibeMap) |
+## Juegos
 
-El portafolio en sí: React 19, TypeScript, Vite, three.js, Playwright + axe en CI → [Portafolio-Web](https://github.com/Brunich/Portafolio-Web)
-
-## Game dev
-
-| | | |
-|---|---|---|
-| **IA Rogue** | Roguelike 3D en Godot 4: tres cámaras, escenas jugables y shaders propios. | [escenas y modelo 3D](https://bruno-portfolio-azure.vercel.app/#graphics) |
-| **Nexos (demo Godot)** | RPG fan en Godot 4.6: mapa abierto y batallas por turnos; la versión final va en Unreal Engine | [repo](https://github.com/Brunich/Nexos-Demo-Godot) |
-
-## Otros
-
-| | | |
-|---|---|---|
-| **Conciliación de cobros WHOP** | Cruza la lista de clientes con los pagos y marca lo que no cuadra | [repo](https://github.com/Brunich/Conciliacion-De-Cobros-WHOP) |
-| **Aseprite gratis, build manual** | Compila Aseprite oficial en Windows Home en un clic | [repo](https://github.com/Brunich/Aseprite-Gratis-Oficial-Build-Manual) |
+- **[IA Rogue](https://bruno-portfolio-azure.vercel.app/#graphics)**: roguelike 3D en Godot 4 con shaders propios
+- **[Nexos](https://github.com/Brunich/Nexos-Demo-Godot)**: RPG por turnos, demo en Godot 4.6
 
 ## Stack
 
-TypeScript · React · Vite · Node.js · Supabase · Python · Pandas · SQL · Playwright · three.js · Godot 4 · Vercel
+TypeScript · React · Node.js · Supabase · Python · SQL · Playwright · three.js · Godot

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <style>
+    .t { fill: #1f2328; font-size: 14px; font-weight: 600; }
+    .s { fill: #59636e; font-size: 12px; }
+    .v { fill: #59636e; font-size: 11px; }
+    .ln { stroke: #d1d9e0; }
+    .bar { fill: #2da44e; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #f0f6fc; }
+      .s, .v { fill: #9198a1; }
+      .ln { stroke: #3d444d; }
+      .bar { fill: #3fb950; }
+    }
+  </style>
+
+  <!-- Contribuciones por mes -->
+  <text x="20" y="28" class="t">Contribuciones por mes</text>
+  <text x="20" y="46" class="s">817 en el último año · 407 commits · 34 PR · 29 issues</text>
+  <line x1="20" y1="190" x2="390" y2="190" class="ln"/>
+  <g class="bar">
+    <rect x="35"  y="180.8" width="32" height="9.2"   rx="3"/>
+    <rect x="87"  y="176.3" width="32" height="13.7"  rx="3"/>
+    <rect x="139" y="180.1" width="32" height="9.9"   rx="3"/>
+    <rect x="191" y="175.6" width="32" height="14.4"  rx="3"/>
+    <rect x="243" y="178.2" width="32" height="11.8"  rx="3"/>
+    <rect x="295" y="166.2" width="32" height="23.8"  rx="3"/>
+    <rect x="347" y="80"    width="32" height="110"   rx="3"/>
+  </g>
+  <g class="v" text-anchor="middle">
+    <text x="51"  y="175">39</text>
+    <text x="103" y="171">58</text>
+    <text x="155" y="175">42</text>
+    <text x="207" y="170">61</text>
+    <text x="259" y="173">50</text>
+    <text x="311" y="161">101</text>
+    <text x="363" y="75">466</text>
+  </g>
+  <g class="s" text-anchor="middle">
+    <text x="51"  y="208">mar</text>
+    <text x="103" y="208">abr</text>
+    <text x="155" y="208">may</text>
+    <text x="207" y="208">jun</text>
+    <text x="259" y="208">jul</text>
+    <text x="311" y="208">ago</text>
+    <text x="363" y="208">sep</text>
+  </g>
+
+  <!-- Lenguajes -->
+  <text x="440" y="28" class="t">Lenguajes</text>
+  <text x="440" y="46" class="s">por volumen de código en mis repos</text>
+  <g>
+    <rect x="440"   y="66" width="360" height="12" rx="6" fill="#8b949e"/>
+    <rect x="440"   y="66" width="274.9" height="12" rx="6" fill="#355570"/>
+    <rect x="708.9" y="66" width="29.7" height="12" fill="#3572A5"/>
+    <rect x="738.6" y="66" width="21.9" height="12" fill="#178600"/>
+    <rect x="760.5" y="66" width="15.0" height="12" fill="#3178c6"/>
+    <rect x="775.5" y="66" width="14.2" height="12" fill="#478cbf"/>
+  </g>
+  <g class="s">
+    <circle cx="446" cy="110" r="5" fill="#355570"/><text x="458" y="114">GDScript 74,7 %</text>
+    <circle cx="446" cy="138" r="5" fill="#3572A5"/><text x="458" y="142">Python 8,2 %</text>
+    <circle cx="446" cy="166" r="5" fill="#178600"/><text x="458" y="170">C# 6,1 %</text>
+    <circle cx="626" cy="110" r="5" fill="#3178c6"/><text x="638" y="114">TypeScript 4,2 %</text>
+    <circle cx="626" cy="138" r="5" fill="#478cbf"/><text x="638" y="142">GDShader 3,9 %</text>
+    <circle cx="626" cy="166" r="5" fill="#8b949e"/><text x="638" y="170">Otros 2,9 %</text>
+  </g>
+</svg>
