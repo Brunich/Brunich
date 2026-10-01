@@ -106,6 +106,17 @@ def main():
     .s {{ fill: #59636e; font-size: 12px; }}
     .v {{ fill: #818b98; }}
     .ln {{ stroke: #d1d9e0; }}
+    @keyframes trazo {{ from {{ stroke-dashoffset: 1; }} to {{ stroke-dashoffset: 0; }} }}
+    @keyframes aparece {{ from {{ opacity: 0; }} to {{ opacity: 1; }} }}
+    @keyframes crece {{ from {{ transform: scaleX(0); }} to {{ transform: scaleX(1); }} }}
+    @keyframes pulso {{ 0%,100% {{ r: 4; opacity: 1; }} 50% {{ r: 7; opacity: .35; }} }}
+    .linea {{ stroke-dasharray: 1; stroke-dashoffset: 0; animation: trazo 2s ease-out both; }}
+    .area {{ animation: aparece 1.4s ease-out .8s both; }}
+    .punto {{ animation: aparece .3s ease-out 1.9s both, pulso 2.4s ease-in-out 2.2s infinite; }}
+    .num {{ animation: aparece .5s ease-out 2s both; }}
+    .barra {{ transform-box: fill-box; transform-origin: left; animation: crece 1.4s cubic-bezier(.2,.7,.2,1) both; }}
+    .leyenda {{ animation: aparece .6s ease-out 1s both; }}
+    @media (prefers-reduced-motion: reduce) {{ * {{ animation: none !important; }} }}
     @media (prefers-color-scheme: dark) {{
       .t {{ fill: #f0f6fc; }}
       .s {{ fill: #9198a1; }}
@@ -124,16 +135,16 @@ def main():
   <text x="20" y="28" class="t">Contribuciones acumuladas</text>
   <text x="20" y="46" class="s">últimos 6 meses · commits, PR, issues y revisiones</text>
   <line x1="{x0}" y1="{y0}" x2="{x1}" y2="{y0}" class="ln"/>
-  <path d="{area}" fill="url(#relleno)"/>
-  <path d="{linea}" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="{ultimo[0]:.1f}" cy="{ultimo[1]:.1f}" r="4" fill="#3fb950"/>
-  <text x="{ultimo[0] - 8:.1f}" y="{ultimo[1] + 4:.1f}" class="s" text-anchor="end">{suma}</text>
+  <path class="area" d="{area}" fill="url(#relleno)"/>
+  <path class="linea" pathLength="1" d="{linea}" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="{ultimo[0]:.1f}" cy="{ultimo[1]:.1f}" r="4" class="punto" fill="#3fb950"/>
+  <text x="{ultimo[0] - 8:.1f}" y="{ultimo[1] + 4:.1f}" class="s num" text-anchor="end">{suma}</text>
   <g class="s" text-anchor="start">{"".join(etiquetas)}</g>
 
   <text x="440" y="28" class="t">Lenguajes</text>
   <text x="440" y="46" class="s">por volumen de código en mis repos</text>
-  <g clip-path="url(#barra)">{"".join(barra)}</g>
-  {"".join(leyenda)}
+  <g clip-path="url(#barra)"><g class="barra">{"".join(barra)}</g></g>
+  <g class="leyenda">{"".join(leyenda)}</g>
 </svg>
 """
     ruta = os.path.join(os.path.dirname(__file__), "..", "actividad.svg")
