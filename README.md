@@ -10,7 +10,10 @@ Estudiante de Ingeniería en Software en la UANL. Hago herramientas web, de dato
 
 ## Proyectos
 
-<img src="gifs/nfc.gif" width="46%" align="left" alt="Chip NFC para negocios">
+<table><tr>
+<td width="46%" valign="top"><img src="gifs/nfc.gif" alt="Chip NFC para negocios" width="100%"></td>
+<td width="4%"></td>
+<td valign="top">
 
 ### <img src="iconos/nfc.svg" width="22" align="top"> Chip NFC para negocios
 
@@ -19,9 +22,11 @@ El cliente acerca el celular al chip: sin app y sin registrarse.
 
 [Probar](https://bruno-portfolio-azure.vercel.app/proyectos/club-nfc) · [Código](https://github.com/Brunich/Chip-NFC-Para-Empresas-Y-Negocios)
 
-<br clear="all"><br>
+</td>
+</tr></table>
 
-<img src="gifs/csv.gif" width="46%" align="right" alt="Analizador CSV">
+<table><tr>
+<td valign="top">
 
 ### <img src="iconos/csv.svg" width="22" align="top"> Analizador CSV
 
@@ -30,9 +35,15 @@ Arregla lo mecánico en un clic, lo grafica y lo consultas en SQL.
 
 [Probar](https://bruno-portfolio-azure.vercel.app/proyectos/analizador-csv) · [Código](https://github.com/Brunich/Analizador-CSV)
 
-<br clear="all"><br>
+</td>
+<td width="4%"></td>
+<td width="46%" valign="top"><img src="gifs/csv.gif" alt="Analizador CSV" width="100%"></td>
+</tr></table>
 
-<img src="gifs/incidencias.gif" width="46%" align="left" alt="Tablero de incidencias">
+<table><tr>
+<td width="46%" valign="top"><img src="gifs/incidencias.gif" alt="Tablero de incidencias" width="100%"></td>
+<td width="4%"></td>
+<td valign="top">
 
 ### <img src="iconos/incidencias.svg" width="22" align="top"> Tablero de incidencias
 
@@ -41,9 +52,11 @@ Cada una con responsable, evidencia, SLA por severidad y cierre.
 
 [Probar](https://bruno-portfolio-azure.vercel.app/proyectos/entrega-de-turno) · [Código](https://github.com/Brunich/Tablero-De-Incidencias-De-Datos-Para-Empresas)
 
-<br clear="all"><br>
+</td>
+</tr></table>
 
-<img src="gifs/planta.gif" width="46%" align="right" alt="Monitor de planta">
+<table><tr>
+<td valign="top">
 
 ### <img src="iconos/planta.svg" width="22" align="top"> Monitor de planta
 
@@ -52,9 +65,15 @@ OEE, lotes y detenciones al momento, como en el piso de la planta.
 
 [Probar](https://monitor-de-planta.vercel.app) · [Código](https://github.com/Brunich/Monitor-De-Planta)
 
-<br clear="all"><br>
+</td>
+<td width="4%"></td>
+<td width="46%" valign="top"><img src="gifs/planta.gif" alt="Monitor de planta" width="100%"></td>
+</tr></table>
 
-<img src="gifs/inventario.gif" width="46%" align="left" alt="Inventario QR">
+<table><tr>
+<td width="46%" valign="top"><img src="gifs/inventario.gif" alt="Inventario QR" width="100%"></td>
+<td width="4%"></td>
+<td valign="top">
 
 ### <img src="iconos/inventario.svg" width="22" align="top"> Inventario QR
 
@@ -63,9 +82,11 @@ Entradas, ventas y conteo; avisa lo que falta y arma la lista de compras.
 
 [Probar](https://bruno-portfolio-azure.vercel.app/proyectos/inventario) · [Código](https://github.com/Brunich/Inventario-QR-Con-Camara)
 
-<br clear="all"><br>
+</td>
+</tr></table>
 
-<img src="gifs/graficas.gif" width="46%" align="right" alt="Gráficas de control">
+<table><tr>
+<td valign="top">
 
 ### <img src="iconos/graficas.svg" width="22" align="top"> Gráficas de control
 
@@ -74,20 +95,26 @@ Marca las reglas de Western Electric y calcula Cp y Cpk contra la tolerancia.
 
 [Probar](https://bruno-portfolio-azure.vercel.app/proyectos/graficas-de-control) · [Código](https://github.com/Brunich/Graficas-De-Control)
 
-<br clear="all"><br>
+</td>
+<td width="4%"></td>
+<td width="46%" valign="top"><img src="gifs/graficas.gif" alt="Gráficas de control" width="100%"></td>
+</tr></table>
 
-<img src="gifs/puntou.gif" width="46%" align="left" alt="Punto U">
+<table><tr>
+<td width="46%" valign="top"><img src="gifs/puntou.gif" alt="Punto U" width="100%"></td>
+<td width="4%"></td>
+<td valign="top">
 
 ### <img src="iconos/puntou.svg" width="22" align="top"> Punto U
 
 Estudiantes de la UANL piden y hacen favores en un mapa del campus.<br>
 App web y Android hecha con React y Capacitor.
 
+</td>
+</tr></table>
 
-
-<br clear="all"><br>
-
-<img src="gifs/vibemap.gif" width="46%" align="right" alt="VibeMap">
+<table><tr>
+<td valign="top">
 
 ### <img src="iconos/vibemap.svg" width="22" align="top"> VibeMap
 
@@ -96,11 +123,17 @@ Hecha en un hackathon con equipo de 3; tu código no sale del navegador.
 
 [Código](https://github.com/Brunich/VibeMap)
 
-<br clear="all"><br>
+</td>
+<td width="4%"></td>
+<td width="46%" valign="top"><img src="gifs/vibemap.gif" alt="VibeMap" width="100%"></td>
+</tr></table>
 
 ## Juegos
 
-<img src="gifs/iarogue.gif" width="46%" align="left" alt="IA Rogue">
+<table><tr>
+<td width="46%" valign="top"><img src="gifs/iarogue.gif" alt="IA Rogue" width="100%"></td>
+<td width="4%"></td>
+<td valign="top">
 
 ### <img src="iconos/iarogue.svg" width="22" align="top"> IA Rogue
 
@@ -109,7 +142,8 @@ Un mismo personaje en pixel art, cel shading y 3D.
 
 [Ver escenas](https://bruno-portfolio-azure.vercel.app/#graphics)
 
-<br clear="all"><br>
+</td>
+</tr></table>
 
 ## Stack
 
