@@ -10,14 +10,14 @@ Estudiante de Ingeniería en Software en la UANL. Hago herramientas web, de dato
 
 ## Proyectos
 
-<img src="gifs/nfc.gif" width="46%" align="left" alt="Chip NFC para negocios">
+<img src="gifs/puntou.gif" width="46%" align="left" alt="Punto U">
 
-### <img src="iconos/nfc.svg" width="22" align="top"> Chip NFC para negocios
+### <img src="iconos/puntou.svg" width="22" align="top"> Punto U
 
-Tarjeta de sellos y menú digital para restaurantes y negocios.<br>
-El cliente acerca el celular al chip: sin app y sin registrarse.
+Estudiantes de la UANL piden y hacen favores en un mapa del campus.<br>
+App web y Android hecha con React y Capacitor.
 
-[Probar](https://bruno-portfolio-azure.vercel.app/proyectos/club-nfc) · [Código](https://github.com/Brunich/Chip-NFC-Para-Empresas-Y-Negocios)
+[Probar](https://punto-u-app.vercel.app) · [Código](https://github.com/Brunich/Punto-U-App)
 
 <br clear="all"><br>
 
@@ -37,7 +37,7 @@ Arregla lo mecánico en un clic, lo grafica y lo consultas en SQL.
 ### <img src="iconos/incidencias.svg" width="22" align="top"> Tablero de incidencias
 
 Incidencias de calidad que pasan de un turno al otro sin perderse.<br>
-Cada una con responsable, evidencia, SLA por severidad y cierre.
+Cada una con responsable, evidencia, SLA (tiempo máximo para cerrarla) por severidad y cierre.
 
 [Probar](https://bruno-portfolio-azure.vercel.app/proyectos/entrega-de-turno) · [Código](https://github.com/Brunich/Tablero-De-Incidencias-De-Datos-Para-Empresas)
 
@@ -48,7 +48,7 @@ Cada una con responsable, evidencia, SLA por severidad y cierre.
 ### <img src="iconos/planta.svg" width="22" align="top"> Monitor de planta
 
 Tres líneas de producción en vivo, con estilo Windows 98.<br>
-OEE, lotes y detenciones al momento, como en el piso de la planta.
+OEE (eficiencia general del equipo), lotes y detenciones al momento, como en el piso de la planta.
 
 [Probar](https://monitor-de-planta.vercel.app) · [Código](https://github.com/Brunich/Monitor-De-Planta)
 
@@ -76,18 +76,7 @@ Marca las reglas de Western Electric y calcula Cp y Cpk contra la tolerancia.
 
 <br clear="all"><br>
 
-<img src="gifs/puntou.gif" width="46%" align="left" alt="Punto U">
-
-### <img src="iconos/puntou.svg" width="22" align="top"> Punto U
-
-Estudiantes de la UANL piden y hacen favores en un mapa del campus.<br>
-App web y Android hecha con React y Capacitor.
-
-
-
-<br clear="all"><br>
-
-<img src="gifs/vibemap.gif" width="46%" align="right" alt="VibeMap">
+<img src="gifs/vibemap.gif" width="46%" align="left" alt="VibeMap">
 
 ### <img src="iconos/vibemap.svg" width="22" align="top"> VibeMap
 
@@ -95,6 +84,17 @@ Sueltas la carpeta de un proyecto y la ves como mapa mental.<br>
 Hecha en un hackathon con equipo de 3; tu código no sale del navegador.
 
 [Código](https://github.com/Brunich/VibeMap)
+
+<br clear="all"><br>
+
+<img src="gifs/nfc.gif" width="46%" align="right" alt="Chip NFC para negocios">
+
+### <img src="iconos/nfc.svg" width="22" align="top"> Chip NFC para negocios
+
+Tarjeta de sellos y menú digital para restaurantes y negocios.<br>
+El cliente acerca el celular al chip: sin app y sin registrarse.
+
+[Probar](https://bruno-portfolio-azure.vercel.app/proyectos/club-nfc) · [Código](https://github.com/Brunich/Chip-NFC-Para-Empresas-Y-Negocios)
 
 <br clear="all"><br>
 
