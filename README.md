@@ -1,10 +1,10 @@
 # Bruno Salas Rodríguez
 
-Estudiante de Ingeniería en Software en la UANL. Hago herramientas web, de datos y de automatización, y juegos en Godot.
+Estudiante de Ingeniería en Software en la UANL. He trabajado en herramientas web, de datos, como tambien automatizaciónes y juegos 2D/3D.
 
 [Portafolio](https://bruno-portfolio-azure.vercel.app) · [LinkedIn](https://www.linkedin.com/in/bruno-salas-969b78282/) · brunich99@gmail.com · Monterrey, México
 
-> Software Engineering student at UANL. I build web, data and automation tools with React and TypeScript, and games in Godot. Every project below runs if you click in "Probar".
+> Software Engineering student at UANL. I build web, data and automation tools with React and TypeScript, and games. Every project below runs if you click in "Probar".
 
 <img src="actividad.svg" alt="Actividad semanal y lenguajes" width="100%">
 
